@@ -23,7 +23,7 @@ int main(int argc, char** argv)
 {
 	// 初始化GLFW
 	glfwInit();
-	// Set all the required options for GLFW
+	// 设置context的版本号
 	glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 3);
 	glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 3);
 	// 核心渲染模式
@@ -32,7 +32,7 @@ int main(int argc, char** argv)
 
 	GLFWwindow* window = glfwCreateWindow(800, 600, "HelloTriangle", nullptr, nullptr);
 	glfwMakeContextCurrent(window);
-
+	// 使用现代化技术管理OpenGL指针
 	glewExperimental = GL_TRUE;
 	glewInit();
 
@@ -144,7 +144,7 @@ int main(int argc, char** argv)
 		// 第三个参数：绘制多少个顶点
 		glDrawArrays(GL_TRIANGLES, 0, 3);
 		glBindVertexArray(0);
-		// 刷新屏幕
+		// 前后缓冲交换，刷新屏幕
 		glfwSwapBuffers(window);
 	}
 
