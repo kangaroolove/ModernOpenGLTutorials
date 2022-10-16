@@ -116,9 +116,9 @@ int main(int argc, char** argv)
 	// 启用顶点属性，对应layout(location = 0),顶点属性默认关闭
 	glEnableVertexAttribArray(0);
 
-	// 解绑VBO，避免数据再被修改
+	// 解绑VBO，避免数据再被修改(这是被允许的，因为glVertexAttribPointer已经注册了当前的VBO, 所以我们可以安全的解绑)
 	glBindBuffer(GL_ARRAY_BUFFER, 0);
-	// 解绑VAO，避免数据再被修改
+	// 解绑VAO，避免数据再被修改(解绑任何buffer/array来防止陌生的bugs,这是一个好习惯)
 	glBindVertexArray(0);
 
 	// 设置清屏颜色
