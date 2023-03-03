@@ -50,7 +50,7 @@ int main(int argc, char** argv)
 	glfwSetScrollCallback(window, scroll_callback);
 
 	// 使用现代化技术管理OpenGL指针
-	glewExperimental = GL_TRUE;
+	//glewExperimental = GL_TRUE;
 	glewInit();
 
 	// 打开深度测试
@@ -155,9 +155,11 @@ int main(int argc, char** argv)
 	glEnableVertexAttribArray(0);
 
 	unsigned int diffuseMap = loadTexture("res/container2.png");
+    unsigned int specularMap = loadTexture("res/container2_specular.png");
 
 	cubeShader.Use();
 	cubeShader.setInt("material.diffuse", 0);
+    cubeShader.setInt("material.specular", 1);
 
 	// 设置清屏颜色
 	glClearColor(0.2f, 0.3f, 0.3f, 1.0f);
@@ -182,8 +184,8 @@ int main(int argc, char** argv)
 
 		cubeShader.Use();
 		//cubeShader.setVec3("objectColor", 1.0f, 0.5f, 0.31f);
-		cubeShader.setVec3("lightColor", 1.0f, 1.0f, 1.0f);
-		cubeShader.setVec3("lightPos", lightPos);
+		//cubeShader.setVec3("lightColor", 1.0f, 1.0f, 1.0f);
+		cubeShader.setVec3("light.position", lightPos);
 		cubeShader.setVec3("viewPos", camera.Position);
 
 		// light properties
@@ -192,7 +194,6 @@ int main(int argc, char** argv)
 		cubeShader.setVec3("light.specular", 1.0f, 1.0f, 1.0f);
 
 		// material properties
-		cubeShader.setVec3("material,specular", 0.5f, 0.5f, 0.5f);
 		cubeShader.setFloat("material.shininess", 64.0f);
 
 		glm::mat4 projection(1.0f);
@@ -205,9 +206,11 @@ int main(int argc, char** argv)
 		glm::mat4 model(1.0f);
 		cubeShader.setMat4("model", model);
 
-
 		glActiveTexture(GL_TEXTURE0);
 		glBindTexture(GL_TEXTURE_2D, diffuseMap);
+
+        glActiveTexture(GL_TEXTURE1);
+        glBindTexture(GL_TEXTURE_2D, specularMap);
 
 		glBindVertexArray(cubeVAO);
 		glDrawArrays(GL_TRIANGLES, 0, 36);
