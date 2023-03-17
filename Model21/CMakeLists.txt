@@ -25,6 +25,8 @@ add_executable(Tutorial21
   Camera.h
   Mesh.cpp
   Mesh.h
+  Model.cpp
+  Model.h
 )
 target_link_libraries(Tutorial21 ${EXTRA_LIBS} ${ASSIMP_LIBRARIES})
 target_include_directories(Tutorial21 PUBLIC ${EXTRA_INCLUDES})
