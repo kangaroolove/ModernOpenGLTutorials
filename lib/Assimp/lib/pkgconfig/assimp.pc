@@ -1,11 +1,10 @@
-prefix=C:/Users/q3514/Desktop/assimp-3.3.1/bin
-exec_prefix=C:/Users/q3514/Desktop/assimp-3.3.1/bin/bin
-libdir=C:/Users/q3514/Desktop/assimp-3.3.1/bin/lib
-includedir=C:/Users/q3514/Desktop/assimp-3.3.1/bin/include/assimp
+prefix=C:/Users/kangaroo/Desktop/bin
+exec_prefix=C:/Users/kangaroo/Desktop/bin/bin
+libdir=C:/Users/kangaroo/Desktop/bin/lib
+includedir=C:/Users/kangaroo/Desktop/bin/include/assimp
 
 Name: Assimp
 Description: Import various well-known 3D model formats in an uniform manner.
-Version: 3.3.1
+Version: 3.1.1
 Libs: -L${libdir} -lassimp
-Libs.private:  
 Cflags: -I${includedir}
