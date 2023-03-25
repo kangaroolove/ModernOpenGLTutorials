@@ -6,11 +6,12 @@
 #include <gtc\matrix_transform.hpp>
 #include "Mesh.h"
 #include "Shader.h"
+#include "assimp/material.h"
 
-class aiMaterial;
-class aiMesh;
-class aiScene;
-class aiNode;
+struct aiMaterial;
+struct aiMesh;
+struct aiScene;
+struct aiNode;
 
 class Model
 {
@@ -28,6 +29,6 @@ private:
     void processNode(aiNode *node, const aiScene *scene);
     Mesh processMesh(aiMesh *mesh, const aiScene *scene);
     std::vector<Texture> loadMaterialTextures(aiMaterial *mat, aiTextureType type, std::string typeName);
-    unsigned int TextureFromFile(const char *path, const std::string &directory, bool gamma);
+    unsigned int TextureFromFile(const char *path, const std::string &directory, bool gamma = false);
 };
 

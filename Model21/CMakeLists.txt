@@ -5,7 +5,7 @@ project(Tutorial21 VERSION 0.1 LANGUAGES CXX)
 list(APPEND EXTRA_LIBS 
 	${PROJECT_SOURCE_DIR}/../lib/glfw-3.3.8/lib/glfw3.lib
 	${PROJECT_SOURCE_DIR}/../lib/glew-2.1.0/lib/Release/x64/glew32s.lib
-	${PROJECT_SOURCE_DIR}/../lib/Assimp/lib/assimp-vc140-mt.lib
+	${PROJECT_SOURCE_DIR}/../lib/Assimp/lib/assimpd.lib
 	opengl32.lib
 )
 
@@ -28,5 +28,5 @@ add_executable(Tutorial21
   Model.cpp
   Model.h
 )
-target_link_libraries(Tutorial21 ${EXTRA_LIBS} ${ASSIMP_LIBRARIES})
+target_link_libraries(Tutorial21 ${EXTRA_LIBS})
 target_include_directories(Tutorial21 PUBLIC ${EXTRA_INCLUDES})
