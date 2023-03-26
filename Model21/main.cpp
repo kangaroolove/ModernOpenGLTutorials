@@ -64,9 +64,11 @@ int main(int argc, char** argv)
 	// …Ë÷√ ”ø⁄
 	glViewport(0, 0, width, height);
 
-	Shader shader("shader/cubeShader.vs", "shader/cubeShader.frag");
+	Shader shader("shader/model_loading.vs", "shader/model_loading.frag");
 
-	Model ourModel("");
+	Model ourModel("models/clocktower.obj");
+
+	glClearColor(0.05f, 0.05f, 0.05f, 1.0f);
 
 	while (!glfwWindowShouldClose(window))
 	{
