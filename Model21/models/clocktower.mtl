@@ -93,7 +93,7 @@ Ke 1.000000 0.000000 0.557233
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd C:\Users\lenovo\Desktop\blender\CLOCK TOWER(1)\Clock Tower 3D Model\Zone_A_House_other.png
+map_Kd tex\Zone_A_House_other.png
 
 newmtl Material.005
 Ns 94.117647
@@ -137,7 +137,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd C:\Users\lenovo\Desktop\blender\CLOCK TOWER(1)\Clock Tower 3D Model\Zone_A_House_other.png
+map_Kd tex\Zone_A_House_other.png
 
 newmtl Material.012
 Ns 94.117647
@@ -181,7 +181,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd C:\Users\lenovo\Desktop\blender\CLOCK TOWER(1)\Clock Tower 3D Model\Zone_A_House_other.png
+map_Kd tex\Zone_A_House_other.png
 
 newmtl Material.016
 Ns 94.117647
@@ -214,7 +214,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd C:\Users\lenovo\Desktop\blender\CLOCK TOWER(1)\Clock Tower 3D Model\Zone_A_House_other.png
+map_Kd tex\Zone_A_House_other.png
 
 newmtl Material.024
 Ns 94.117647
@@ -225,7 +225,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd C:\Users\lenovo\Desktop\blender\CLOCK TOWER(1)\Clock Tower 3D Model\Zone_A_House_tile.png
+map_Kd tex\Zone_A_House_tile.png
 
 newmtl Material.025
 Ns 94.117647
@@ -258,7 +258,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd C:\Users\lenovo\Desktop\blender\CLOCK TOWER(1)\Clock Tower 3D Model\Zone_A_House_wall01.png
+map_Kd tex\Zone_A_House_wall01.png
 
 newmtl Material.028
 Ns 94.117647
@@ -269,7 +269,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd C:\Users\lenovo\Desktop\blender\CLOCK TOWER(1)\Clock Tower 3D Model\Zone_A_House_other.png
+map_Kd tex\Zone_A_House_other.png
 
 newmtl Material.029
 Ns 94.117647
@@ -280,7 +280,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd C:\Users\lenovo\Desktop\blender\CLOCK TOWER(1)\Clock Tower 3D Model\Zone_A_House_wall03.png
+map_Kd tex\Zone_A_House_wall03.png
 
 newmtl Material.030
 Ns 94.117647
@@ -291,7 +291,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd C:\Users\lenovo\Desktop\blender\CLOCK TOWER(1)\Clock Tower 3D Model\base_01.png
+map_Kd tex\base_01.png
 
 newmtl Material.031
 Ns 94.117647
@@ -312,7 +312,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd C:\Users\lenovo\Desktop\blender\CLOCK TOWER(1)\Clock Tower 3D Model\Zone_A_House_tile.png
+map_Kd tex\Zone_A_House_tile.png
 
 newmtl Material.035
 Ns 94.117647
@@ -323,7 +323,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd C:\Users\lenovo\Desktop\blender\CLOCK TOWER(1)\Clock Tower 3D Model\Zone_A_House_wall01.png
+map_Kd tex\Zone_A_House_wall01.png
 
 newmtl Material.036
 Ns 94.117647
@@ -334,7 +334,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd C:\Users\lenovo\Desktop\blender\CLOCK TOWER(1)\Clock Tower 3D Model\Zone_A_House_other.png
+map_Kd tex\Zone_A_House_other.png
 
 newmtl Material.037
 Ns 94.117647
@@ -345,7 +345,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd C:\Users\lenovo\Desktop\blender\CLOCK TOWER(1)\Clock Tower 3D Model\Zone_A_House_other03.png
+map_Kd tex\Zone_A_House_other03.png
 
 newmtl Material.038
 Ns 94.117647
@@ -356,7 +356,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd C:\Users\lenovo\Desktop\blender\CLOCK TOWER(1)\Clock Tower 3D Model\Zone_A_House_tile.png
+map_Kd tex\Zone_A_House_tile.png
 
 newmtl Material.039
 Ns 94.117647
@@ -367,7 +367,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd C:\Users\lenovo\Desktop\blender\CLOCK TOWER(1)\Clock Tower 3D Model\Zone_A_House_wall01.png
+map_Kd tex\Zone_A_House_wall01.png
 
 newmtl Material.040
 Ns 94.117647
@@ -378,7 +378,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd C:\Users\lenovo\Desktop\blender\CLOCK TOWER(1)\Clock Tower 3D Model\Zone_A_House_other.png
+map_Kd tex\Zone_A_House_other.png
 
 newmtl Material.041
 Ns 94.117647
@@ -389,7 +389,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd C:\Users\lenovo\Desktop\blender\CLOCK TOWER(1)\Clock Tower 3D Model\Zone_A_House_wall03.png
+map_Kd tex\Zone_A_House_wall03.png
 
 newmtl Sign
 Ns 94.117647
